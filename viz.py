@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 city = []
 rates = []
-df = pd.read_csv("C:\\Users\\acer\\Desktop\\Coding\\Python\\data projects\\unemployment\\South Africa_AdministrativeArea1.csv")
+df = pd.read_csv("South Africa_AdministrativeArea1 (1).csv")
 
 man = df.groupby('placeName')
 
